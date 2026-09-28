@@ -26,3 +26,7 @@ The API accepts one report per network address, branch, service, and 30-minute b
 - This pilot uses community reports, not bank queue feeds. Visitors can misreport; network-address limits may also group unrelated people behind shared mobile networks. Add moderation, stronger abuse controls, and an observed field test before presenting estimates as dependable.
 - The Google Maps button searches for a branch; it is not a verified location pin.
 - If the backend is not configured or reachable, the interface displays no estimates rather than sample figures.
+
+## Building imagery
+
+The CBZ, FBC Graniteside, and POSB exterior photos are credited in the UI to Zimbabwe Independent, Equity Axis, and NewsDay Zimbabwe respectively. They illustrate those banks; they do **not** verify the location or current appearance of the pilot branch cards. Confirm permission or replace them with licensed bank-provided photography before a public commercial launch. Other bank cards use their supplied logos until verified building photography is available.
