@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 
-const branchIds = new Set(['cbz-kwame','cbz-samora','cbz-westgate','fbc-cbd','fbc-belgravia','zb-cbd','zb-avondale','cabs-first','cabs-avondale','stb-cbd','fcb-first']);
+const branchIds = new Set(['cbz-kwame','cbz-samora','cbz-westgate','fbc-cbd','fbc-belgravia','zb-cbd','zb-avondale','cabs-first','cabs-avondale','stb-cbd','fcb-first','afc-cbd','abc-cbd','posb-cbd']);
 const services = new Set(['Cash withdrawal','Cash deposit','Account opening','Card services','General enquiries']);
 const json = (statusCode, body) => ({ statusCode, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store', 'x-content-type-options': 'nosniff' }, body: JSON.stringify(body) });
 const minute = 60_000;
